@@ -1,0 +1,2 @@
+# sPoll
+simple poll application
