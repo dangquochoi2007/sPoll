@@ -1,0 +1,8 @@
+<% if object.errors.any? %>
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <ul>
+        <% object.errors.full_messages.each do |msg| %>
+            <li>* <%= msg %></li>
+        <% end %>
+      </ul>
+<% end %>
